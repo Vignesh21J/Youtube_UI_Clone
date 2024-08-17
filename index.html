@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="bar-icon" src="thumbnails/bar_icon.svg" alt="bar-icon">
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="youtube-logo" src="thumbnails/youtube-logo.svg" alt="youtube-logo">
+            </a>
+            <span class="style-scope">
+                IN
+            </span>
+        </div>
+        
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search-bar">
+            
+            <button class="search-button">
+                <img class="search-icon" src="thumbnails/search-icon.svg" alt="search-icon">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="thumbnails/voice-search-icon.svg" alt="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+             <div class="upload-icon-container">
+                <img class="upload-icon" src="thumbnails/upload-icon.svg" alt="upload-icon">
+                <div class="tooltip">Create</div>
+             </div>
+
+             <div class="notifications-icon-container">
+                <img class="notifications-icon" src="thumbnails/notifications-icon.svg" alt="notifi-icon">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+             </div>
+
+             <img class="user-profile" src="thumbnails/user-icon.jpg" alt="">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+         <div class="sidebar-link">
+            <img src="icons/home.svg" alt="home-icon">
+            <div>Home</div>
+         </div>
+         <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="explore-icon">
+            <div>Explore</div>
+         </div>
+         <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="subscriptions-icon">
+            <div>Subscriptions</div>
+         </div>
+         <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="originals-icon">
+            <div>Originals</div>
+         </div>
+         <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="youtube-music-icon">
+            <div>YouTube Music</div>
+         </div>
+         <div class="sidebar-link">
+            <img src="icons/library.svg" alt="library-icon">
+            <div>Library</div>
+         </div>
+    </nav>
+    
+    <main>
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/vXHSe5QU6AM?si=fa8kQlB8l5FVFDM8" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image1.webp" style="border-radius: 10px;" alt="img1">
+                    </a>
+                    <div class="video-time">4:58</div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Venmegam Pennaga Full Song Keyboard Cover || With Notes</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">4.2K views &#183; 1 year ago</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/nw6gcLm0J7w?si=kChy57FryLLsn2vt" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image2.webp" style="border-radius: 10px;" alt="img2">
+                    </a>
+                    <div class="video-time">2:10</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Thenmozhi Song 🎹 Cover || Thiruchitrambalam </p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">762 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/CznOoJa7fkk?si=KG7gloDpITVvqoVw" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image3.webp" style="border-radius: 10px;" alt="img3">
+                    </a>
+                    <div class="video-time">1:32</div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">🫠🙂Loosu Penne 🎵 🎹...🎶 .. Manmadhan </p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">578 views &#183; 1 year ago</p>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/6aO6fYYbSFM?si=36bSdP3rP_GBiGtg" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image4.webp" style="border-radius: 10px;" alt="img4">
+                    </a>
+                    <div class="video-time">2:40</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Naam - Adi Penne Song 🎹✌🏼💯 || Stephen Zechariah Srinisha</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">482 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/SmhFXjp_HOg?si=e14p3uhKRyr8AWsR" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image5.webp" style="border-radius: 10px;" alt="img5">
+                    </a>
+                    <div class="video-time">1:58</div>
+                </div>
+    
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Unakku Thann Full Song 🎹 || Siddharth || Santhosh Narayanan</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">476 views &#183; 7 months ago</p>
+                    </div>
+                </div>   
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/QMRc1zGoaKk?si=wOPzry5I7XT0mdWV" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image6.webp" style="border-radius: 10px;" alt="img6">
+                    </a>
+                    <div class="video-time">2:41</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Vaarayo Vaarayo Full Song Keyboard || 🎹 Cover</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">460 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/Oyhq7gIgZas?si=mtG0pL7x6UOVSgve" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image7.webp" style="border-radius: 10px;" alt="img7">
+                    </a>
+                    <div class="video-time">1:40</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Kgf 2 Rocky Entry Bgm || Rocky Bhai Mass Bgm || Keyboard Cover</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">401 views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/zvO-qd5xVIA?si=8ZdVemiaE4LyuK_f" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image8.webp" style="border-radius: 10px;" alt="img8">
+                    </a>
+                    <div class="video-time">1:54</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Life of Pazham Full Song || 🎹 COVER || Thiruchitrambalam </p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">172 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/r8tVOMjqoms?si=siWR1MUEQvgJKpjy" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image9.webp" style="border-radius: 10px;" alt="img9">
+                    </a>
+                    <div class="video-time">1:08</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Vikram Song || Pathala Pathala Song || Keyboard Cover</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">148 views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/W6iEC2z0OQI?si=M6jmyS2L1O0ojvqJ" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image10.webp" style="border-radius: 10px;" alt="img10">
+                    </a>
+                    <div class="video-time">2:54</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Jolly O Gymkhana Song Keyboard Cover || Vijay Song Keyboard Cover</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">145 views &#183; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/on_w3f-ofCI?si=hhkqXhXn8KoFNbas" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image11.webp" style="border-radius: 10px;" alt="img11">
+                    </a>
+                    <div class="video-time">1:18</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">Mehaboobaa Song Keyboard Cover With Chords || KGF 2</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">143 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/2lhPi8WJ8UA?si=gs5yZ-ImdO-uluNl" target="_blank">
+                        <img class="thumbnail" src="thumbnails/image12.webp" style="border-radius: 10px;" alt="img12">
+                    </a>
+                    <div class="video-time">2:12</div>
+                </div>
+                
+                <div class="video-info-grid">
+                    <div class="channel-logo">
+                        <img class="profile-picture" src="thumbnails/channelLogo.jpg" alt="logo ">
+                    </div>
+    
+                    <div class="video-infos">
+                        <p class="video-title">VIP Song || Amma Amma Song || Dhanush || Anirudh</p>
+                        <p class="video-author">Pgcrush Musics</p>
+                        <p class="video-stats">123 views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
